@@ -5,7 +5,7 @@ pipeline {
     name = "elina"
     image = "elina:0.0.1-${env.BUILD_ID}"
     dockerPort = "80"
-    hostPort = "30100"
+    hostPort = "30160"
   }
   stages {
     stage('Build') {

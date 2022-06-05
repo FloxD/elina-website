@@ -12,9 +12,6 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -22,7 +19,11 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
+# npm
 npm run dev
+
+# yarn
+yarn dev -o
 ```
 
 ## Production
@@ -30,13 +31,21 @@ npm run dev
 Build the application for production:
 
 ```bash
+# npm
 npm run build
+
+# yarn
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
+# npm
 npm run preview
+
+# yarn
+yarn preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.

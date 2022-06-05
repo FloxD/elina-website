@@ -4,7 +4,7 @@ pipeline {
     KUBECONFIG = "/etc/kubernetes/admin.conf"
     name = "elina"
     image = "elina:0.0.1-${env.BUILD_ID}"
-    dockerPort = "80"
+    dockerPort = "3000"
     hostPort = "30160"
   }
   stages {

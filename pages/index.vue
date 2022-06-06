@@ -15,6 +15,13 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
+           href="https://www.youtube.com/channel/UCZBRLTVr1ZITpLsRGC-saGA"
+           target="_blank">
+          Youtube
+        </a>
+      </div>
+      <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
            href="https://twitter.com/YaBoiElina"
            target="_blank">
           Twitter
@@ -22,9 +29,23 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://www.youtube.com/channel/UCZBRLTVr1ZITpLsRGC-saGA"
+           href="https://twitter.com/ElinaDoesArt"
            target="_blank">
-          Youtube
+          Twitter (art)
+        </a>
+      </div>
+      <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://www.instagram.com/yaboielina/"
+           target="_blank">
+          Instagram
+        </a>
+      </div>
+      <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://www.instagram.com/elinadoesart/"
+           target="_blank">
+          Instagram (art)
         </a>
       </div>
       <div class="column is-half">
@@ -36,25 +57,45 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://www.instagram.com/yaboielina/"
+           href="https://www.tiktok.com/@elinascats"
            target="_blank">
-          Instagram
+          TikTok (cats)
         </a>
       </div>
       <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth">etc</a>
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://discord.gg/Elina"
+           target="_blank">
+          Discord
+        </a>
       </div>
       <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth">etc</a>
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://store.streamelements.com/elina"
+           target="_blank">
+          Merch
+        </a>
       </div>
       <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth">etc</a>
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://streamelements.com/elina/tip"
+           target="_blank">
+          Donate
+        </a>
       </div>
       <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth">etc</a>
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://throne.me/u/elina"
+           target="_blank">
+          Throne
+        </a>
       </div>
       <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth">etc</a>
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://w2g.tv/qvdmilmrkfo03cyn3y"
+           target="_blank">
+          Movie Night
+        </a>
       </div>
     </div>
   </div>
@@ -78,7 +119,12 @@
   background-color: #919973;
 }
 
-.is-primary:hover {
+.is-primary:hover, .is-primary:active, .is-primary:focus {
   background-color: #858c69;
 }
+
+.is-primary:focus:not(:active) {
+  box-shadow: none;
+}
+
 </style>

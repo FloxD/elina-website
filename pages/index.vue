@@ -154,6 +154,12 @@
 </template>
 
 <style lang="scss" scoped>
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .button {
   border-radius: 100px;
 }
@@ -168,11 +174,13 @@
   //background-color: #8d5848;
   //background-color: #7d8463;
   //background-color: #60664c;
-  background-color: #919973;
+  //background-color: #919973;
+  background-color: #709982;
 }
 
 .is-primary:hover, .is-primary:active, .is-primary:focus {
-  background-color: #858c69;
+  //background-color: #858c69;
+  background-color: #79a68c;
 }
 
 .is-primary:focus:not(:active) {

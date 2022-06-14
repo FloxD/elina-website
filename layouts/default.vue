@@ -9,7 +9,7 @@
 <style lang="scss">
 html {
   height: 100%;
-  background-image: url("/img/background2.jpg");
+  background-image: url("/img/background4.jpg");
   background-size: cover;
 }
 

@@ -2,7 +2,7 @@
   <div>
     <div class="is-flex is-justify-content-center">
       <figure class="image is-200x200">
-        <img class="is-rounded" src="/img/avatar.png" alt="elina profile image">
+        <img class="is-rounded" src="/img/avatar2.png" alt="elina profile image">
       </figure>
     </div>
     <div class="columns is-multiline">

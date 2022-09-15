@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="is-flex is-justify-content-center">
+    <div class="is-flex is-justify-content-center avatar-margin">
       <figure class="image is-200x200">
-        <img class="is-rounded" src="/img/avatar2.png" alt="elina profile image">
+        <img class="is-rounded" src="/img/avatar4.jpg" alt="elina profile image">
       </figure>
     </div>
     <div class="columns is-multiline">
@@ -149,6 +149,17 @@
           Movie Night
         </a>
       </div>
+      <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://fanhouse.app/elina"
+           target="_blank">
+          <svg style="width:2rem;height:1.5rem">
+            <path fill="white"
+                  d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z"/>
+          </svg>
+          Fanhouse
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -170,21 +181,19 @@
 }
 
 .is-primary {
-  //background-color: #8f8749;
-  //background-color: #8d5848;
-  //background-color: #7d8463;
-  //background-color: #60664c;
-  //background-color: #919973;
-  background-color: #709982;
+  background-color: #D4AFB9;
 }
 
 .is-primary:hover, .is-primary:active, .is-primary:focus {
-  //background-color: #858c69;
-  background-color: #79a68c;
+  background-color: #c7a5ae;
 }
 
 .is-primary:focus:not(:active) {
   box-shadow: none;
+}
+
+.avatar-margin {
+  margin-bottom: 3rem;
 }
 
 </style>

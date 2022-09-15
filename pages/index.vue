@@ -52,7 +52,7 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://www.instagram.com/yaboielina/"
+           href="https://www.instagram.com/elinatwitch/"
            target="_blank">
           <svg style="width:2rem;height:1.5rem">
             <path fill="white"

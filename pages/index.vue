@@ -118,17 +118,6 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://streamelements.com/elina/tip"
-           target="_blank">
-          <svg style="width:2rem;height:1.5rem">
-            <path fill="white"
-                  d="M7,15H9C9,16.08 10.37,17 12,17C13.63,17 15,16.08 15,15C15,13.9 13.96,13.5 11.76,12.97C9.64,12.44 7,11.78 7,9C7,7.21 8.47,5.69 10.5,5.18V3H13.5V5.18C15.53,5.69 17,7.21 17,9H15C15,7.92 13.63,7 12,7C10.37,7 9,7.92 9,9C9,10.1 10.04,10.5 12.24,11.03C14.36,11.56 17,12.22 17,15C17,16.79 15.53,18.31 13.5,18.82V21H10.5V18.82C8.47,18.31 7,16.79 7,15Z"/>
-          </svg>
-          Donate
-        </a>
-      </div>
-      <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth"
            href="https://throne.me/u/elina"
            target="_blank">
           <svg style="width:2rem;height:1.5rem">
@@ -140,17 +129,6 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://w2g.tv/qvdmilmrkfo03cyn3y"
-           target="_blank">
-          <svg style="width:2rem;height:1.5rem">
-            <path fill="white"
-                  d="M20.84 2.18L16.91 2.96L19.65 6.5L21.62 6.1L20.84 2.18M13.97 3.54L12 3.93L14.75 7.46L16.71 7.07L13.97 3.54M9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05L9.07 4.5M4.16 5.5L3.18 5.69A2 2 0 0 0 1.61 8.04L2 10L6.9 9.03L4.16 5.5M2 10V20C2 21.11 2.9 22 4 22H20C21.11 22 22 21.11 22 20V10H2Z"/>
-          </svg>
-          Movie Night
-        </a>
-      </div>
-      <div class="column is-half">
-        <a class="button is-primary is-large is-fullwidth"
            href="https://fanhouse.app/elina"
            target="_blank">
           <svg style="width:2rem;height:1.5rem">
@@ -158,6 +136,17 @@
                   d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z"/>
           </svg>
           Fanhouse
+        </a>
+      </div>
+      <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
+           href="https://streamelements.com/elina/tip"
+           target="_blank">
+          <svg style="width:2rem;height:1.5rem">
+            <path fill="white"
+                  d="M7,15H9C9,16.08 10.37,17 12,17C13.63,17 15,16.08 15,15C15,13.9 13.96,13.5 11.76,12.97C9.64,12.44 7,11.78 7,9C7,7.21 8.47,5.69 10.5,5.18V3H13.5V5.18C15.53,5.69 17,7.21 17,9H15C15,7.92 13.63,7 12,7C10.37,7 9,7.92 9,9C9,10.1 10.04,10.5 12.24,11.03C14.36,11.56 17,12.22 17,15C17,16.79 15.53,18.31 13.5,18.82V21H10.5V18.82C8.47,18.31 7,16.79 7,15Z"/>
+          </svg>
+          Donate
         </a>
       </div>
     </div>

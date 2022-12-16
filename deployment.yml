@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: {name}
-          image: {image}
+          image: localhost:5000/{image}
           imagePullPolicy: Never
           ports:
             - containerPort: {dockerPort}

@@ -10,6 +10,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+        sh "eval $(minikube docker-env)"
         sh "docker build -f Dockerfile -t ${image} ."
       }
     }

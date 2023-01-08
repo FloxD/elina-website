@@ -48,4 +48,15 @@ npm run preview
 yarn preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Deployment
+
+```bash
+# local
+docker build -f Dockerfile -t elina:latest .
+docker tag elina:latest myregistry.com/elina:latest
+docker push myregistry.com/elina:latest
+
+# on server
+docker pull myregistry.com/elina:latest
+docker run -d --restart always -p 30160:3000 myregistry.com/elina:latest
+```

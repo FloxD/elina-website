@@ -74,7 +74,7 @@
       </div>
       <div class="column is-half">
         <a class="button is-primary is-large is-fullwidth"
-           href="https://www.tiktok.com/@elinapeepee"
+           href="https://www.tiktok.com/@elinatwitch"
            target="_blank">
           <svg width="2rem" height="1.5rem" viewBox="0 0 512 512">
             <path fill="white"

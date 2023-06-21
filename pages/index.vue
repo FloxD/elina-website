@@ -149,6 +149,16 @@
           Donate
         </a>
       </div>
+            <div class="column is-half">
+        <a class="button is-primary is-large is-fullwidth"
+           href="/schedule"
+           target="_blank">
+          <svg style="width:2rem;height:1.5rem;margin-right: 0.4rem;">
+            <rect width="28.274971" height="3.534372" rx="0" ry="0" transform="translate(5.951405 5.754382)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(20.713116 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(28.181931 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(20.713116 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(28.181931 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(5.90696 15.776178)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(5.818069 21.316544)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(13.262274 15.776178)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(20.713116 15.776178)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(28.181931 15.776178)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(20.713116 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(28.181931 10.71343)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(13.173383 21.316544)" fill="white"  /><rect width="6" height="4" rx="0" ry="0" transform="translate(20.624226 21.316544)" fill="white"  />
+          </svg>
+          Schedule
+        </a>
+      </div>
     </div>
   </div>
 </template>

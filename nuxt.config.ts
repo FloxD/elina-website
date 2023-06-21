@@ -1,6 +1,11 @@
-import {defineNuxtConfig} from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    css: ['bulma']
+  css: [
+    'bulma'
+  ,'assets/styles/main.scss'
+],
+
+  devtools: {
+    enabled: true,
+  },
 })

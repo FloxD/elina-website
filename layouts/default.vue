@@ -30,8 +30,6 @@ html {
 }
 
 #main-wrapper {
-  padding-top: 6rem;
-  //$test: #123;
-  //background-color: $test;
+  padding-top: 10vh;
 }
 </style>

@@ -1,9 +1,20 @@
+<script setup lang="ts">
+import moment from 'moment';
+
+function getLink() {
+    return 'https://schedule.floxd.com/' + moment().year() + '/week-' + moment().week() + '/schedule.jpg'
+}
+</script>
+
 <template>
   <div>
     <div class="is-flex is-justify-content-center avatar-margin">
       <figure class="image is-200x200">
         <img class="is-rounded" src="/img/avatar4.jpg" alt="elina profile image">
       </figure>
+    </div>
+    <div class="is-flex is-justify-content-center">
+        <img :src="getLink()"/>
     </div>
     <div class="columns is-multiline">
       <div class="column is-half">

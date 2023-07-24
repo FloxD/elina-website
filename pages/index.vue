@@ -245,7 +245,7 @@ const {
       <img
         style="box-shadow: grey 0.2rem 1rem 1rem 0;"
         :src="'http://localhost:8080/' + getScheduleSubdirectory() + 'schedule.jpg'" 
-        alt="Server error"
+        alt="Elina's streaming schedule"
         />
     </div>
 

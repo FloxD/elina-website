@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import moment from "moment-timezone";
 
+moment.updateLocale('en', {
+  week: {
+    dow: 1, // Monday is the first day of the week.
+  }
+});
+
 function getScheduleSubdirectory() {
   return moment().year() + "/week-" + moment().week() + "/";
 }
@@ -24,6 +30,10 @@ const {
   //'http://localhost:8080/' + getScheduleSubdirectory() + 'get_times_utc'
   'http://schedule.floxd.com/' + getScheduleSubdirectory() +'get_times_utc'
 );
+
+if (error) {
+  console.log(error);
+}
 </script>
 
 <template>
@@ -245,7 +255,7 @@ const {
     <div>
       <img
         style="box-shadow: grey 0.2rem 1rem 1rem 0;"
-        :src="'http://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'" 
+        :src="'http://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'"
         alt="Elina's streaming schedule "
         />
     </div>

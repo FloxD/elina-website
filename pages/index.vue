@@ -244,38 +244,45 @@ if (error) {
         </a>
       </div>
     </div>
-  </div>
 
-  <div id="schedule" class="mt-6 pt-6" v-if="!error">
-    <div class="message my-3 is-size-7" style="margin-bottom: none;">
-      <div class="message-header title is-4" >
-        This week, times in CET:
+    <div class="columns donothon">
+      <div class="column">
+        <a class="button is-primary is-large is-fullwidth" href="/donothon" target="_top">
+          Donothon Info
+        </a>
       </div>
     </div>
-    <div>
-      <img
-        style="box-shadow: grey 0.2rem 1rem 1rem 0;"
-        :src="'http://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'"
-        alt="Elina's streaming schedule "
+
+    <div id="schedule" v-if="!error">
+      <div class="message is-size-7">
+        <div class="message-header title is-4" >
+          This week, times in CET:
+        </div>
+      </div>
+      <div>
+        <img
+            :src="'http://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'"
+            alt="Elina's streaming schedule "
         />
-    </div>
-
-    <div class="message my-3 is-size-7" v-if="!isCetTimeZone()">
-      <div class="message-header title is-4">
-        In your local time:
       </div>
-      <div class="message-body is-size-5" style="padding-top: 0.5rem">
+
+      <div class="message is-size-7" v-if="!isCetTimeZone()">
+        <div class="message-header title is-4">
+          In your local time:
+        </div>
+        <div class="message-body is-size-5">
         <span v-for="dayUtc in daysUtc">
           <span v-if="dayUtc.isGoingToStream">
             {{ moment.utc(dayUtc.dateTime).local().format("ddd: hA") }}
             &nbsp;&nbsp;&nbsp;
           </span>
         </span>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="schedule" class="message is-5 my-6 p-2 is-warning" v-if="error">
-    Error while loading streaming schedule
+    <div id="schedule" class="message is-5 my-6 p-2 is-warning" v-if="error">
+      Error while loading streaming schedule
+    </div>
   </div>
 </template>
 
@@ -311,6 +318,20 @@ if (error) {
 .avatar-margin {
   margin-bottom: 3rem;
 }
+
+.donothon {
+  margin-top: 3rem;
+}
+
+.donothon .column a {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#schedule {
+  margin-top: 6rem;
+}
+
 </style>
 
 

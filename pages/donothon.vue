@@ -3,6 +3,22 @@
     <a class="button is-primary is-fullwidth" href="/" target="_top">
       back
     </a>
-    <img src="/img/donothon.png" alt="elina's donothon info"/>
+    <img src="/img/donothon2.png" alt="elina's donothon info"/>
   </div>
 </template>
+
+<style>
+.button {
+  border-radius: 100px;
+}
+
+.is-primary {
+  background-color: #d4afb9;
+}
+
+.is-primary:hover,
+.is-primary:active,
+.is-primary:focus {
+  background-color: #c7a5ae;
+}
+</style>

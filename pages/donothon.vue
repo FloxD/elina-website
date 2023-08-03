@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .button {
   border-radius: 100px;
 }

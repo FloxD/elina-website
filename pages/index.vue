@@ -216,21 +216,6 @@ if (error) {
       <div class="column is-half">
         <a
           class="button is-primary is-large is-fullwidth"
-          href="https://fanhouse.app/elina"
-          target="_blank"
-        >
-          <svg style="width: 2rem; height: 1.5rem">
-            <path
-              fill="white"
-              d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z"
-            />
-          </svg>
-          Fanhouse
-        </a>
-      </div>
-      <div class="column is-half">
-        <a
-          class="button is-primary is-large is-fullwidth"
           href="https://streamelements.com/elina/tip"
           target="_blank"
         >

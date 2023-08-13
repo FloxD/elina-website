@@ -230,14 +230,6 @@ if (error) {
       </div>
     </div>
 
-    <div class="columns donothon">
-      <div class="column">
-        <a class="button is-primary is-large is-fullwidth" href="/donothon" target="_top">
-          Donothon Info
-        </a>
-      </div>
-    </div>
-
     <div id="schedule" v-if="!error">
       <div class="message is-size-7">
         <div class="message-header title is-4" >
@@ -302,15 +294,6 @@ if (error) {
 
 .avatar-margin {
   margin-bottom: 3rem;
-}
-
-.donothon {
-  margin-top: 3rem;
-}
-
-.donothon .column a {
-  font-weight: bold;
-  font-size: 2rem;
 }
 
 #schedule {

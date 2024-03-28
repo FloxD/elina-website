@@ -251,7 +251,7 @@ if (error) {
           This week, times in CET:
         </div>
       </div>
-      <div>
+      <div class="is-flex is-justify-content-center">
         <img
             :src="'https://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'"
             alt="Elina's streaming schedule "

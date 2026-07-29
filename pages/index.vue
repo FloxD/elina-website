@@ -1,41 +1,3 @@
-<script setup lang="ts">
-import moment from "moment-timezone";
-
-moment.updateLocale('en', {
-  week: {
-    dow: 1, // Monday is the first day of the week.
-  }
-});
-
-function getScheduleSubdirectory() {
-  return moment().year() + "/week-" + moment().week() + "/";
-}
-
-function isCetTimeZone():boolean{
-  var currentTZ = moment.tz(moment.tz.guess()).format('z');
-  return (currentTZ =='CET' || currentTZ == 'CEST');
-}
-
-interface ScheduleDayUtc {
-  id: number;
-  isGoingToStream: boolean;
-  dateTime: Date;
-}
-
-const {
-  data: daysUtc,
-  pending,
-  error,
-} = await useFetch<ScheduleDayUtc[]>(
-  //'http://localhost:8080/' + getScheduleSubdirectory() + 'get_times_utc'
-  'https://schedule.floxd.com/' + getScheduleSubdirectory() +'get_times_utc'
-);
-
-if (error) {
-  console.log(error);
-}
-</script>
-
 <template>
   <div>
     <div class="is-flex is-justify-content-center avatar-margin">
@@ -214,37 +176,6 @@ if (error) {
         </a>
       </div>
     </div>
-
-    <div id="schedule" v-if="!error">
-      <div class="message is-size-7">
-        <div class="message-header title is-4" >
-          This week, times in CET:
-        </div>
-      </div>
-      <div class="is-flex is-justify-content-center">
-        <img
-            :src="'https://schedule.floxd.com/' + getScheduleSubdirectory() + 'schedule.jpg'"
-            alt="Elina's streaming schedule "
-        />
-      </div>
-
-      <div class="message is-size-7" v-if="!isCetTimeZone()">
-        <div class="message-header title is-4">
-          In your local time:
-        </div>
-        <div class="message-body is-size-5">
-        <span v-for="dayUtc in daysUtc">
-          <span v-if="dayUtc.isGoingToStream">
-            {{ moment.utc(dayUtc.dateTime).local().format("ddd: hA") }}
-            &nbsp;&nbsp;&nbsp;
-          </span>
-        </span>
-        </div>
-      </div>
-    </div>
-    <div id="schedule" class="message is-5 my-6 p-2 is-warning" v-if="error">
-      Error while loading streaming schedule
-    </div>
   </div>
 </template>
 
@@ -280,11 +211,4 @@ if (error) {
 .avatar-margin {
   margin-bottom: 3rem;
 }
-
-#schedule {
-  margin-top: 6rem;
-}
-
 </style>
-
-

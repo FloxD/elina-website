@@ -186,21 +186,6 @@ if (error) {
       <div class="column is-half">
         <a
           class="button is-primary is-large is-fullwidth"
-          href="https://store.streamelements.com/elina"
-          target="_blank"
-        >
-          <svg style="width: 2rem; height: 1.5rem">
-            <path
-              fill="white"
-              d="M16,21H8A1,1 0 0,1 7,20V12.07L5.7,13.07C5.31,13.46 4.68,13.46 4.29,13.07L1.46,10.29C1.07,9.9 1.07,9.27 1.46,8.88L7.34,3H9C9,4.1 10.34,5 12,5C13.66,5 15,4.1 15,3H16.66L22.54,8.88C22.93,9.27 22.93,9.9 22.54,10.29L19.71,13.12C19.32,13.5 18.69,13.5 18.3,13.12L17,12.12V20A1,1 0 0,1 16,21"
-            />
-          </svg>
-          Merch
-        </a>
-      </div>
-      <div class="column is-half">
-        <a
-          class="button is-primary is-large is-fullwidth"
           href="https://throne.me/u/elina"
           target="_blank"
         >
@@ -216,21 +201,6 @@ if (error) {
       <div class="column is-half">
         <a
           class="button is-primary is-large is-fullwidth"
-          href="https://www.passes.com/elina"
-          target="_blank"
-        >
-          <svg style="width: 2rem; height: 1.5rem">
-            <path
-              fill="white"
-              d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z"
-            />
-          </svg>
-          Passes
-        </a>
-      </div>
-      <div class="column is-half">
-        <a
-          class="button is-primary is-large is-fullwidth"
           href="https://streamelements.com/elina/tip"
           target="_blank"
         >
@@ -241,14 +211,6 @@ if (error) {
             />
           </svg>
           Donate
-        </a>
-      </div>
-    </div>
-
-    <div class="columns subathon">
-      <div class="column">
-        <a class="button is-primary is-large is-fullwidth" href="/subathon" target="_top">
-          Subathon Info
         </a>
       </div>
     </div>
@@ -317,15 +279,6 @@ if (error) {
 
 .avatar-margin {
   margin-bottom: 3rem;
-}
-
-.subathon {
-  margin-top: 3rem;
-}
-
-.subathon .column a {
-  font-weight: bold;
-  font-size: 2rem;
 }
 
 #schedule {
